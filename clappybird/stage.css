@@ -9,8 +9,17 @@
    1.51 claps a second the physics asks for at level flight — and the meter,
    the ring and the wingbeat all run off that one number, so the picture and
    the game agree. (It was 0.538s / 1.86 until the game's gravity came down
-   from 1600 to 1300; the interval is 2 * flapImpulse / gravity, so it moves
-   whenever that dial does and this file has to move with it.)
+   from 1600 to 1300 on 2026-09-04.)
+
+   HOW TO KNOW WHETHER THIS FILE HAS TO MOVE. The interval is
+   2 * |flapImpulse| / gravity, which is a RATIO of the game's two vertical
+   dials, so it is NOT "whenever gravity changes". On 2026-09-05 gravity came
+   down again, 1300 -> 1040, to make the bird fall 20% slower, and flapImpulse
+   was scaled 430 -> 344 alongside it precisely so the tempo would not move —
+   688/1040 is the same 0.662s as 860/1300. Nothing in this file changed, and
+   changing it would have put the picture out of time with the game. Read the
+   answer off GameConfig.levelFlightSeconds / clapsPerSecond in the clappybird
+   repo, never off either dial on its own.
 
    Everything is one <div class="stage stage--clappybird"> deep. The chrome
    (.stage, .stage__grid, .stage__tag) and the reduced-motion twin's frame both
