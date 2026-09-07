@@ -6,16 +6,16 @@
   Same skeleton as every other product page (/styles.css does the chrome); the
   signature strip is in /clappybird/stage.css.
 
-  PRE-LAUNCH. The app is on neither store. Both store controls are disabled
-  <button>s, not links — see the .app-note under them. They become real
-  <a href> links the day the store records exist, and not before.
+  HALF-SHIPPED. Live on Google Play since 2026-09; not on the App Store yet.
+  The Play control is a real <a href>; the App Store one is still a disabled
+  <button>, and stays one until that listing exists.
 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Clappy Bird — Hands off the glass. Clap to fly. | Machinaut Studios LLC</title>
-  <meta name="description" content="Clappy Bird is an endless flyer you play with your hands off the glass: a bird falls, and a sharp sound — a clap, a shout, a snap, a whistle — shoves it back up. There is no touch control during play. Three modes on one simulation: Endless, a Daily course identical for everyone that day, and 12 Flight School lessons. 412 courses ship, every one proved flyable first. The microphone is measured for loudness on your device and never recorded or transmitted. An iPhone and Android game by Machinaut Studios LLC, coming soon to the App Store and Google Play." />
+  <meta name="description" content="Clappy Bird is an endless flyer you play with your hands off the glass: a bird falls, and a sharp sound — a clap, a shout, a snap, a whistle — shoves it back up. There is no touch control during play. Three modes on one simulation: Endless, a Daily course identical for everyone that day, and 12 Flight School lessons. 412 courses ship, every one proved flyable first. The microphone is measured for loudness on your device and never recorded or transmitted. An Android game by Machinaut Studios LLC, out now on Google Play, with the App Store to follow." />
   <meta name="copyright" content="© 2026 Machinaut Studios LLC. All rights reserved." />
   <meta name="theme-color" content="#07060f" />
   <meta name="color-scheme" content="dark" />
@@ -24,7 +24,7 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Clappy Bird — Hands off the glass. Clap to fly." />
-  <meta property="og:description" content="A bird falls. A clap shoves it back up. That is the whole control scheme — nothing in this game answers a touch. Coming soon to the App Store and Google Play." />
+  <meta property="og:description" content="A bird falls. A clap shoves it back up. That is the whole control scheme — nothing in this game answers a touch. Out now on Google Play." />
   <meta property="og:url" content="https://machinautstudios.com/clappybird/" />
   <meta property="og:image" content="https://machinautstudios.com/clappybird/clappybird-og.png" />
   <meta property="og:image:width" content="1200" />
@@ -88,7 +88,7 @@
         <div class="app-hero__layout">
           <img class="app-hero__icon" src="/clappybird/clappybird_icon.png" alt="Clappy Bird app icon — a deep-purple bird with an orange beak on a pale disc against a blue sky" width="152" height="152" />
           <div class="app-hero__text">
-            <p class="stamp stamp--hero">&#9654; COMING SOON &nbsp;//&nbsp; iOS + ANDROID</p>
+            <p class="stamp stamp--hero">&#9654; NOW SHIPPING &nbsp;//&nbsp; ANDROID &nbsp;//&nbsp; iOS SOON</p>
             <h1 class="hero__title" id="clappybird-title"><span class="n1">Clappy Bird<span class="cursor" aria-hidden="true"></span></span></h1>
             <p class="app-hero__tagline">Hands off the glass.<br />Clap to fly.</p>
             <p class="hero__sub">
@@ -109,19 +109,21 @@
                 </svg>
                 <span>Coming soon to the App Store</span>
               </button>
-              <button class="btn btn--primary btn--play" type="button" disabled aria-disabled="true"
-                      aria-label="Coming soon to Google Play">
+              <a class="btn btn--primary btn--play"
+                 href="https://play.google.com/store/apps/details?id=com.machinautstudios.clappybird"
+                 aria-label="Get Clappy Bird on Google Play">
                 <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                   <path d="M4 3.5v17a1 1 0 0 0 1.5.87l14-8.5a1 1 0 0 0 0-1.74l-14-8.5A1 1 0 0 0 4 3.5z" fill="currentColor"/>
                 </svg>
-                <span>Coming soon to Google Play</span>
-              </button>
+                <span>Get it on Google Play</span>
+              </a>
               <a class="btn btn--ghost" href="/clappybird/privacy/">PRIVACY POLICY</a>
             </div>
             <p class="app-note">
-              Both store buttons are dead on purpose. Clappy Bird is not on the App Store
-              and not on Google Play yet, so there is nothing behind them to link to
-              &mdash; they become real links the day it is live, and not one day earlier.
+              Out now on Google Play, free, with ads and an optional one-time purchase
+              to remove them. The App Store button is still dead on purpose: that listing
+              does not exist yet, and it becomes a real link the day it does &mdash; not
+              one day earlier.
             </p>
           </div>
         </div>
@@ -418,6 +420,7 @@
         <a href="/voidhorde/">Voidhorde</a>
         <a href="/clappybird/">Clappy Bird</a>
         <a href="/clappybird/privacy/">Privacy Policy</a>
+        <a href="https://play.google.com/store/apps/details?id=com.machinautstudios.clappybird">Google Play</a>
         <a href="/spellheir/">Spellheir</a>
         <a href="/slateveil/">Slateveil</a>
         <a href="/starknell/">STARKNELL</a>
