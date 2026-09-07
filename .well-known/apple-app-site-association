@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["8S3CH89365.com.machinautstudios.ninehole"],
+        "components": [
+          { "/": "/ninehole/join", "comment": "Ninehole invite link, bare" },
+          { "/": "/ninehole/join/*", "comment": "Ninehole invite link with a room code" }
+        ]
+      }
+    ]
+  }
+}

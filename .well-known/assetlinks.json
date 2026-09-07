@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.machinautstudios.ninehole",
+      "sha256_cert_fingerprints": [
+        "7C:9F:F2:DC:CA:6D:6A:22:44:5C:DD:49:5A:64:CB:AE:DB:52:A2:DB:6C:D6:68:8A:EA:5F:32:17:DB:E1:2B:5C",
+        "C3:20:00:CF:BA:4D:D5:D2:03:8E:B8:21:CC:7F:41:F1:D6:F6:96:91:E7:7C:98:E1:64:AC:DF:AE:D6:AE:4B:B9"
+      ]
+    }
+  }
+]
