@@ -64,7 +64,7 @@
     <section class="section">
       <article class="legal">
         <h1>Privacy Policy for Clappy Bird</h1>
-        <p class="legal__meta">Last updated: September 3, 2026</p>
+        <p class="legal__meta">Last updated: September 6, 2026</p>
 
         <p class="legal__lead">
           Clappy Bird ("the app") is developed and published by Machinaut Studios LLC
@@ -185,9 +185,28 @@
           &mdash; never anything about an individual player.
         </p>
         <p>
+          <b>None of that happens until you start playing.</b> The ad SDK is started when
+          you enter the game screen &mdash; the same moment the microphone opens, and for
+          the same reason. Open the app, look at your high scores and leave, and no ad was
+          requested and your advertising identifier never left the phone. What a launch
+          does send, every time, is <i>one</i> consent check: the app asks Google's consent
+          service whether your region requires the form described below, which reaches
+          Google with the app's id and your device's IP address. We would rather name that
+          than let &ldquo;nothing until you play&rdquo; quietly cover it.
+        </p>
+        <p>
+          <b>If you have bought Remove Ads, your phone stops asking for an interstitial at
+          all.</b> Not &ldquo;asks and then hides it&rdquo; &mdash; the request is never
+          made. The optional revive ad still loads, because that offer stays yours to take
+          or leave, so the SDK does still start and Google does still receive what is
+          listed above when you play. A purchase can honestly remove the between-run ads;
+          it cannot remove an ad you may still choose to watch.
+        </p>
+        <p>
           <b>Where consent is legally required first &mdash; the EEA, the UK and
           Switzerland &mdash; Clappy Bird asks before any of that happens.</b> On first
-          launch, before a single ad is requested, the app presents Google's consent form
+          launch, before a single ad is requested and before the ad SDK is started at all,
+          the app presents Google's consent form
           through the industry-standard UMP framework and honours what you choose.
           Decline personalization and the ads still appear, because they are what pay for
           the game, but they are selected without using your data to profile you. You are
